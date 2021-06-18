@@ -1,0 +1,176 @@
+body{
+   font-family:"Montserrat-Thin";
+   text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family:"Montserrat";
+}
+
+p{
+  color: #8f8f8f;
+  font-size:1rem;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* heading */
+.big-heading{
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* section heading */
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* section */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+ background-color: white;
+}
+
+/* Navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+  width:100%;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Thin"
+}
+
+/* Download Bottom */
+.Download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* Title image */
+ #title{
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 8%;
+}
+
+.title-image{
+  width: 60%;
+  right: 30%;
+  transform:rotate(25deg);
+  position: absolute;
+}
+
+#features{
+
+  padding: 7% 15%;
+  position: relative;
+}
+.feature-title{
+    font-size: 2rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3.1rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 12%;
+}
+
+#press{
+  background-color:#ef8172;
+  padding: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3.1rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3%;
+}
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta */
+#cta{
+  padding: 7% 15%;
+}
+
+}/* footer */
+#footer{
+    padding: 7% 15%;
+}
+.footer-icon{
+  margin: 16px;
+}
+
+.fab{
+  padding:1%;
+}
+.fas{
+  padding: 0.8%;
+}
