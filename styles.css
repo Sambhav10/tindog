@@ -145,6 +145,10 @@ p{
   padding: 3%;
 }
 
+#footer a {
+  color: black;
+}
+
 @media (max-width:1028px) {
   #title{
     text-align: center;
@@ -160,7 +164,7 @@ p{
   padding: 7% 15%;
 }
 
-}/* footer */
+/* footer */
 #footer{
     padding: 7% 15%;
 }
